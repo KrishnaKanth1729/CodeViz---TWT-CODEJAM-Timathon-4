@@ -1,1 +1,1 @@
-web: gunicorn visualtwtw.wsgi
+web: gunicorn core.wsgi
