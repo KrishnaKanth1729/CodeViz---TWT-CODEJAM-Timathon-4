@@ -1,0 +1,10 @@
+django~=3.1.6
+dj-database-url
+django-bootstrap4
+django-heroku
+gunicorn
+psycopg2
+pytz
+sqlparse
+whitenoise
+django-crispy-forms

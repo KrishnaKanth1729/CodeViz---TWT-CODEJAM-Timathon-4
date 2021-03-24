@@ -1,0 +1,72 @@
+{% extends 'base.html' %}
+{% block page_header %}JSON charts{% endblock page_header %}
+{% block page_desc %}Convert your boring looking JSON into a lively chart that can be used anywhere!{% endblock page_desc %}
+{% block btn %}Get Started{% endblock btn %}
+{% block content %}
+{% load index %}
+{% load bootstrap4 %}
+<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <script type="text/javascript">
+  window.onload = function () {
+    var chart = new CanvasJS.Chart("chartContainer", {
+
+      title:{
+        text: '{{ title }}',
+      },
+       exportEnabled: true,
+      data: [//array of dataSeries
+        { //dataSeries object
+
+         /*** Change type "column" to "bar", "area", "line" or "pie"***/
+         type: '{{ type }}',
+         dataPoints: [
+        {% for key in keys %}
+         { label: "{{ key }}", y: {{ values|index:forloop.counter0 }} },
+         {% endfor %}
+         ]
+       }
+       ]
+     });
+
+    chart.render();
+  }
+  </script>
+  <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+<body>
+
+<style>
+
+    *{
+        font-family: 'Nunito' sans-serif;
+    }
+
+    form{
+        padding: 30px;
+
+    }
+    input{
+        padding: 20px;
+        width: 70%;
+    }
+</style>
+<div class="alert alert-success" role="alert">
+  Example JSON: {'Tim': 500000, 'Sentdex': 1000000}
+</div>
+<form action="{% url 'flow:yt' %}" method="post">
+    {% csrf_token %}
+    {% bootstrap_form form %}&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+    {% buttons %}
+
+    <button type="submit" class="btn btn-info">Get Graph</button>
+
+        {% endbuttons %}
+</form>
+  <div id="chartContainer" style="height: 300px; width: 90%;">
+  </div>
+</body>
+</html>
+{% endblock content %}

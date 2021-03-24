@@ -1,0 +1,64 @@
+{% load index %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+    <title>Document</title>
+</head>
+<style>
+    *{
+        font-family: 'Nunito', sans-serif;
+    }
+</style>
+<body>
+<form action="{% url 'flow:stock' %}" method="post">
+    {% csrf_token %}
+    <input type="text" name="ticker">
+    <button type="submit">Submit</button>
+</form>
+    <h1>Stock Price</h1>
+    <div id="chart"></div>
+</body>
+<script>
+    var options = {
+          series: [{
+          data: [
+          {% for item in open %}
+          {
+              x: '{{ dates|index:forloop.counter0 }}',
+              y: [{{ item }}, {{ high|index:forloop.counter0 }}, {{ low|index:forloop.counter0 }}, {{ close|index:forloop.counter0 }}]
+            },
+            {% endfor %}
+
+         
+           
+          ]
+        }],
+          chart: {
+          type: 'candlestick',
+          height: 350
+        },
+        title: {
+          text: '{{ ticker }} Stock Price',
+          align: 'center'
+        },
+        xaxis: {
+          type: 'string'
+        },
+        yaxis: {
+          tooltip: {
+            enabled: true
+          }
+        }
+        };
+
+        var chart = new ApexCharts(document.getElementById("chart"), options);
+        chart.render();
+</script>
+</html>
