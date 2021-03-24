@@ -12,7 +12,7 @@ def user_directory_path(instance, filename):
 class PyFile(models.Model):
     file = models.FileField(storage=OverwriteStorage(), upload_to=user_directory_path)
     name = models.CharField(max_length=255)
-    color = models.CharField(max_length=6, default='#fff000')
+    color = models.CharField(max_length=7, default='#fff000')
 
     def delete(self, *args, **kwargs):
         self.file.delete()
