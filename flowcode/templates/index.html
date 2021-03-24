@@ -11,7 +11,7 @@
 <!-- Features -->
     {% block content %}
 <section id="main">
-    <div class="title-text">
+    <div class="title-text" style="padding-top: 30px;">
         <p>SERVICES</p>
         <h1>What we Offer?</h1>
   
@@ -32,7 +32,7 @@
             <img src="https://i.pinimg.com/originals/68/7d/ea/687dea2fbb80b62c9c29955fb464eb19.gif" alt="">
         </div>
         <div class="features">
-            <h1>Charts from Json</h1>
+            <a href="{% url 'flow:yt' %}"><h1>Charts From JSON</h1></a>
             <div class="features-desc">
                 <div class="feature-icon">
                     <i class="fa fa-pie-chart" aria-hidden="true"></i>
@@ -46,7 +46,7 @@
             <img src="https://jonmgomes.com/wp-content/uploads/2020/06/Pie-Chart-GIF.gif" alt="">
         </div>
         <div class="features">
-            <h1>Story Collage</h1>
+            <a href="{% url 'flow:viz' %}"><h1>Story Collage</h1></a>
             <div class="features-desc">
                 <div class="feature-icon">
                     <i class="fa fa-book" aria-hidden="true"></i>

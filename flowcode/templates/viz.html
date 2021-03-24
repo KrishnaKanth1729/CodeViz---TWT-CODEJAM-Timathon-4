@@ -4,10 +4,11 @@
 <head>
 
 </head>
-{% block page_header %}Flowchart{% endblock page_header %}
-{% block page_desc %}Convert your python files into flowcharts to make them look more lively{% endblock page_desc %}
+{% block page_header %}Story Collage{% endblock page_header %}
+{% block page_desc %}Convert your story, block of text or an article into a collage of images and make them minteresting to narrate!{% endblock page_desc %}
 {% block btn %}Get Started{% endblock btn %}
 {% block content %}
+<section id="main">
 <body>
 <style>
 img{
@@ -16,11 +17,14 @@ img{
 
 }
 </style>
-<form action="{% url 'flow:viz' %}" method="post">
+<div class="alert alert-info" role="alert">
+  Try this text: Tim is a tech youtuber. He lives in Canada. He works at Microsoft as an intern. He also got a job offer from Shopify. His primary programming language is Python.
+</div>
+<form action="{% url 'flow:viz' %}" method="post" style="padding-top: 50px;">
     {% csrf_token %}
     <div class="form-group">
     <label for="exampleFormControlTextarea1">Your Story</label>
-    <textarea class="form-control" style="width=20%;" id="exampleFormControlTextarea1" name="text" rows="3"></textarea>
+    <textarea height="100px" class="form-control" style="width=20%;" id="exampleFormControlTextarea1" name="text" rows="3"></textarea>
   </div>
     <button type="submit" class="btn btn-primary">Get viz</button>
 </form>
@@ -53,6 +57,11 @@ img{
             <img class="img-fluid img-thumbnail" src="{{ media_url }}image4.png" alt="">
           </a>
     </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="{{ media_url }}image5.png" alt="">
+          </a>
+    </div>
 
 </div>
 </div>
@@ -60,3 +69,4 @@ img{
 </body>
 {% endblock content %}
 </html>
+</section>
