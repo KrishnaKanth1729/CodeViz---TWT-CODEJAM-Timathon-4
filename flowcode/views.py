@@ -28,6 +28,7 @@ def getdata(text):
     driver.get('http://flowchart.js.org/')
     time.sleep(2)
     elements = driver.find_elements_by_class_name('ace_text-input')
+    WebDriverWait(driver, 20).until(EC.element_to_be_clickable((By.CLASS_NAME, "ace_text-input"))).send_keys(text)
     k = elements[1]
     k.clear()
     k.send_keys(text)
