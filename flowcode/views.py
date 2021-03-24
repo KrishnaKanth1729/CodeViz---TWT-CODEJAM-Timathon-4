@@ -19,6 +19,8 @@ from .forms import *
 
 def getdata(text):
     chrome_options = webdriver.ChromeOptions()
+    chrome_options.headless = True
+    chrome_options.add_argument("window-size=1400,800")
     chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-dev-shm-usage")
@@ -243,6 +245,8 @@ def get_images(search_list):
     from django.conf import settings
 
     chrome_options = webdriver.ChromeOptions()
+    chrome_options.headless = True
+    chrome_options.add_argument("window-size=1400,800")
     chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-dev-shm-usage")
