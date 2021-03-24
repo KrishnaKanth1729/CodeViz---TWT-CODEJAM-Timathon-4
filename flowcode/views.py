@@ -29,7 +29,7 @@ def getdata(text):
     time.sleep(2)
     elements = driver.find_elements_by_class_name('ace_text-input')
     WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.CLASS_NAME, "ace_text-input"))).send_keys(text)
-
+    
     el = driver.find_element_by_class_name('diagram2')
     code = el.get_attribute('innerHTML')
 
@@ -225,7 +225,7 @@ def viz(request):
 
 def get_words(sentence):
     from nltk.tag import pos_tag
-
+    nltk.download('averaged_perceptron_tagger')
 
     tagged_sent = pos_tag(sentence.split())
     # [('Michael', 'NNP'), ('Jackson', 'NNP'), ('likes', 'VBZ'), ('to', 'TO'), ('eat', 'VB'), ('at', 'IN'), ('McDonalds', 'NNP')]
