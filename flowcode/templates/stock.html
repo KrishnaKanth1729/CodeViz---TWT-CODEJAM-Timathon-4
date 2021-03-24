@@ -1,3 +1,9 @@
+{% extends 'base.html' %}
+
+    {% block page_header %}StockMarket Data{% endblock page_header %}
+    {% block page_desc %}Get detailed data about various stock markets on a long term basis!{% endblock page_desc %}
+    {% block btn %}Get Started {% endblock btn %}
+{% block content %}
 {% load index %}
 <!DOCTYPE html>
 <html lang="en">
@@ -11,20 +17,31 @@
 
     <title>Document</title>
 </head>
+
+{% load bootstrap4 %}
 <style>
     *{
         font-family: 'Nunito', sans-serif;
     }
+    input{
+        width: 70%;
+    }
 </style>
+
 <body>
-<form action="{% url 'flow:stock' %}" method="post">
+<section id="main" style="padding-top: 30px; padding-bottom: 50px;">
+<form action="{% url 'flow:stock' %}" method="post" style="padding-left: 30px; padding-right: 110px;">
     {% csrf_token %}
-    <input type="text" name="ticker">
-    <button type="submit">Submit</button>
+    {% bootstrap_form form %}
+    {% buttons %}
+    <button type="submit" class="btn btn-primary">Submit</button>
+    {% endbuttons %}
 </form>
-    <h1>Stock Price</h1>
-    <div id="chart"></div>
+    <h1 style="padding-top: 30px; padding-left: 30px;">Stock Price</h1>
+    <div id="chart" style="padding-right: 110px;"></div>
+    </section>
 </body>
+
 <script>
     var options = {
           series: [{
@@ -61,4 +78,5 @@
         var chart = new ApexCharts(document.getElementById("chart"), options);
         chart.render();
 </script>
+{% endblock %}
 </html>

@@ -290,9 +290,11 @@ def stock(request):
         form = CandleForm()
     else:
         form = CandleForm(data=request.POST)
+        context['form'] = form
         if form.is_valid():
 
             ticker = form.cleaned_data['ticker']
+            print(ticker)
             context['ticker'] = ticker
             from datetime import datetime
             start = datetime(2021, 1, 1)
