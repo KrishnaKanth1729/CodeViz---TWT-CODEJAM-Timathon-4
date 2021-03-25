@@ -4,7 +4,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
 
 ### I'm a 13-year old living in India who like anything that's techy!
-[<img align="left" alt="Visual Studio Code" width="100px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />][webdevplaylist]
+[<img align="left" alt="Visual Studio Code" width="300px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />][webdevplaylist]
 # Features:
 ## 💻 Convert your Python Code to Flowcharts
 ### How to use:
