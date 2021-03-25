@@ -4,14 +4,14 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
 
 ### I'm a 13-year old living in India who like anything that's techy!
-
+[<img align="left" alt="Visual Studio Code" width="100px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />][webdevplaylist]
 # Features:
 ## 💻 Convert your Python Code to Flowcharts
 ### How to use:
     
 ## 📊 Visualize your JSON data to graphical and professional-looking charts!
 ## 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
-##🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
+## 🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
 
 ### Connect with me:
 
@@ -26,7 +26,6 @@
 ### Languages and Tools:
 [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" />][jsplaylist]
 [<img align="left" alt="JavaScript" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" />][jsplaylist]
-[<img align="left" alt="Visual Studio Code" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png" />][webdevplaylist]
 [<img align="left" alt="HTML5" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />][webdevplaylist]
 [<img align="left" alt="CSS3" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />][cssplaylist]
 
