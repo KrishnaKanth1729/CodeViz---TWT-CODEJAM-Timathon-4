@@ -5,7 +5,7 @@
 
 </head>
 <body>
-    {% block page_header %}FlowCode{% endblock page_header %}
+    {% block page_header %}CodeViz{% endblock page_header %}
     {% block page_desc %}The assistant that you need to visualize your work.{% endblock page_desc %}
     {% block btn %}Get Started {% endblock btn %}
 <!-- Features -->
@@ -60,7 +60,7 @@
             <img src="https://media4.giphy.com/media/ZFKaOsucd3qqcvrKMQ/giphy.gif" alt="">
         </div>
         <div class="features">
-            <h1>Charts for stock market prices</h1>
+            <a href="{% url 'flow:stock' %}"><h1>Charts for stock market prices</h1></a>
             <div class="features-desc">
                 <div class="feature-icon">
                     <i class="fa fa-line-chart" aria-hidden="true"></i>
@@ -80,13 +80,12 @@
 <section id="about">
     <div class="title-text">
         <p>ABOUT US</p>
-        <h1>Who we are<i class="fa fa-question" aria-hidden="true"></i></a></h1>
+        <h1>Who we are?<i class="fa fa-question" aria-hidden="true"></i></a></h1>
     </div>
     <div class="about-box">
         <div class="single-service">
             <img src="https://images.squarespace-cdn.com/content/v1/5769fc401b631bab1addb2ab/1541580611624-TE64QGKRJG8SWAIUS7NS/ke17ZwdGBToddI8pDm48kPoswlzjSVMM-SxOp7CV59BZw-zPPgdn4jUwVcJE1ZvWQUxwkmyExglNqGp0IvTJZamWLI2zvYWH8K3-s_4yszcp2ryTI0HqTOaaUohrI8PI6FXy8c9PWtBlqAVlUS5izpdcIXDZqDYvprRqZ29Pw0o/coding-freak.gif" alt="">
             <div class="overlay">
-
             </div>
             <div class="service-desc">
                 <div class="service-desc">
@@ -94,7 +93,8 @@
                     <h3>KrishnaKanth</h3>
                     <hr>
                     <p>
-                        A workahloic
+                        Hey there! I am KrishnaKanth#1045. I am the dev of this website. I like backend development a lot.
+                        My other interests are also in Data Structures and Algorithms, and I sure do like CryptoCurrencies a lot!
                     </p>
                 </div>
             </div>

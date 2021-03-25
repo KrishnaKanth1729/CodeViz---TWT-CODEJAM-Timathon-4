@@ -10,8 +10,10 @@
 </div>
 {% endif %}
 <style>
-    svg rect{
-        fill: {{ color }};
+    svg {
+        align-items: center;
+        text-align: center;
+        padding-right: 100px;
     }
     form{
         padding-left: 20px;
@@ -33,15 +35,16 @@
         {{ code }}
     {% endautoescape %}
 
-{% endif %}
+
 
 </div>
+{% endif %}
 <script>
+    console.log('{{ color }}');
     // Selecting the element
-    var btn = document.;
-
-    // Setting new attributes
-    btn.setAttribute("class", "click-btn");
-    btn.setAttribute("disabled", "");
+    var svg = document.getElementsByTagName("svg");
+    var path = svg[0].getElementsByTagName('path');
+    path.setAttribute('fill', '{{ color }}');
+    console.log('done');
 </script>
 {% endblock %}
