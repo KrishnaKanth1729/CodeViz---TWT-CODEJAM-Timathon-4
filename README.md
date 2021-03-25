@@ -5,11 +5,13 @@
 
 ### I'm a 13-year old living in India who like anything that's techy!
 
-## Features:
-- 💻 Convert your Python Code to Flowcharts
-- 📊 Visualize your JSON data to graphical and professional-looking charts!
-- 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
-- 🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
+# Features:
+## 💻 Convert your Python Code to Flowcharts
+### How to use:
+    
+## 📊 Visualize your JSON data to graphical and professional-looking charts!
+## 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
+##🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
 
 ### Connect with me:
 
