@@ -28,8 +28,11 @@ def getdata(text):
     time.sleep(2)
     elements = driver.find_elements_by_class_name('ace_text-input')
     elements[0].send_keys(text)
+    print('sent')
     el = driver.find_element_by_class_name('diagram2')
+    print('found')
     code = el.get_attribute('innerHTML')
+    print('got')
 
     '''element = WebDriverWait(driver, 10).until(
             EC.presence_of_element_located((By.LINK_TEXT, "Beginner Python Tutorials"))
