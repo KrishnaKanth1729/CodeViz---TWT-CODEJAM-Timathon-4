@@ -27,13 +27,7 @@ def getdata(text):
     driver.get('http://flowchart.js.org/')
     time.sleep(2)
     elements = driver.find_elements_by_class_name('ace_text-input')
-    try:
-        WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.CLASS_NAME, "ace_text-input"))).send_keys(text)
-    except:
-        try:
-            WebDriverWait(driver, 15).until(EC.element_to_be_clickable((By.CLASS_NAME, "ace_text-input"))).send_keys(text)
-        except:
-            pass
+    elements.send_keys(text)
     el = driver.find_element_by_class_name('diagram2')
     code = el.get_attribute('innerHTML')
 
@@ -49,6 +43,7 @@ def getdata(text):
         driver.back()
         driver.back()
         driver.back()'''
+    driver.close()
     return code
 
 
