@@ -89,7 +89,7 @@ def get_flowchart(request):
             fc = Flowchart.from_code(code, inner=True)
             print(fc)
             k = fc.flowchart()
-
+            print('made flow')
             l = getdata(k)
             print(l)
         except FileNotFoundError:
