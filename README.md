@@ -1,10 +1,11 @@
 # Hi there, I'm KrishnaKanth1729  👋
 
-# Head over to https://li2160-199.members.linode.com 
+# Head over to https://li2160-199.members.linode.com to see my project - CodeViz, Your assistant to visualize your work. 
 
 ### I'm a 13-year old living in India who likes anything that's techy!
+## This project is KrishnaKanth1729#1045's submission for Timathon Codejams March-April
 # <img align="left" alt="Visual Studio Code" width="300px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />
-<br />
+<br>
 
 # Features:
 ## 💻 Convert your Python Code to Flowcharts
