@@ -8,7 +8,7 @@
 
 <br>
 
-# This project has visualizations for programmers, data-analysts, 
+# This project has visualizations for programmers, data-analysts, stock-market researchers and even StoryTellers!
 # Features:
 ## 💻 Convert your Python Code to Flowcharts
 ## How to use:
@@ -67,3 +67,4 @@
 <br />
 
 ## If you liked my project, please vote for me ☺️. I am KrishnaKanth1729#1045 in team AlgoGuyz
+#### If you have any questions, suggestions or problems related to my project, I am more than happy to hear them. My email - rkrishnakanth1729@gmail.com
