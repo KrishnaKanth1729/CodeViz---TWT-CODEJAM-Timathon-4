@@ -6,14 +6,14 @@
 # [<img align="left" alt="Visual Studio Code" width="300px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />][webdevplaylist]
 # Features:
 ## 💻 Convert your Python Code to Flowcharts
-### How to use:
+## How to use:
 ### In the home page, click on the get started button or simply scroll down to the features section.
 ### Click on Flowchart from Code
 ### This will take you to the flowchart features page
 ### Now fill the form according to the details
 #### &nbsp; &nbsp; &nbsp; Name can be any series of characters you wish
-#### file should be a python file(ends with .py) contaning code that would look great on a flowchart!
-#### Color can be any hex value for your flowchart's nodes
+#### &nbsp; &nbsp; &nbsp; file should be a python file(ends with .py) contaning code that would look great on a flowchart!
+#### &nbsp; &nbsp; &nbsp; Color can be any hex value for your flowchart's nodes
 ## 📊 Visualize your JSON data to graphical and professional-looking charts!
 ## 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
 ## 🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
