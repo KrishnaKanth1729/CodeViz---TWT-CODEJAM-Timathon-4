@@ -39,9 +39,6 @@ class VizForm(forms.ModelForm):
         labels = {'text': 'Entry:'}
         widgets = {'text': forms.Textarea(attrs={'cols': 80})}
 
-
-
-
 class CandleForm(ModelForm):
     class Meta:
         model = Candle

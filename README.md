@@ -1,14 +1,19 @@
-# Hi there, I'm KrishnaKanth - aka [KrishnaKanth1729][website] 👋
+# Hi there, I'm KrishnaKanth1729  👋
 
-[![Website](https://img.shields.io/website?label=codeSTACKr.com&style=for-the-badge&url=https%3A%2F%2Fcodestackr.com)](https://codestackr.com)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codeSTACKr?color=1DA1F2&logo=twitter&style=for-the-badge)](https://twitter.com/intent/follow?original_referer=https%3A%2F%2Fgithub.com%2FcodeSTACKr&screen_name=codeSTACKr)
+#Head over to https://li2160-199.members.linode.com 
 
 ### I'm a 13-year old living in India who like anything that's techy!
 # [<img align="left" alt="Visual Studio Code" width="300px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />][webdevplaylist]
 # Features:
 ## 💻 Convert your Python Code to Flowcharts
 ### How to use:
-    
+### In the home page, click on the get started button or simply scroll down to the features section.
+### Click on Flowchart from Code
+### This will take you to the flowchart features page
+### Now fill the form according to the details
+#### Name can be any series of characters you wish
+#### file should be a python file(ends with .py) contaning code that would look great on a flowchart!
+#### Color can be any hex value for your flowchart's nodes
 ## 📊 Visualize your JSON data to graphical and professional-looking charts!
 ## 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
 ## 🗠 Get Historical Stock data plotted in candlestick charts for any ticker.

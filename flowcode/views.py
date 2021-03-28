@@ -18,12 +18,13 @@ from .forms import *
 
 
 def getdata(text):
-    chrome_options = webdriver.ChromeOptions()
+    '''    chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)
+    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)'''
+    driver = webdriver.Chrome(executable_path=r"C:\Program Files (x86)\chromedriver.exe")
     driver.get('http://flowchart.js.org/')
     time.sleep(2)
     elements = driver.find_elements_by_class_name('ace_text-input')
@@ -244,14 +245,15 @@ def get_images(search_list):
     import time
     from django.conf import settings
 
-    chrome_options = webdriver.ChromeOptions()
-    chrome_options.headless = True
-    chrome_options.add_argument("window-size=1400,800")
-    chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-    chrome_options.add_argument("--headless")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--no-sandbox")
-    driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)
+    '''chrome_options = webdriver.ChromeOptions()
+                chrome_options.headless = True
+                chrome_options.add_argument("window-size=1400,800")
+                chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+                chrome_options.add_argument("--headless")
+                chrome_options.add_argument("--disable-dev-shm-usage")
+                chrome_options.add_argument("--no-sandbox")
+                driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)'''
+    driver = webdriver.Chrome(executable_path=r"C:\Program Files (x86)\chromedriver.exe")
     i = 0
     for item in search_list[:5]:
         i += 1
@@ -299,16 +301,23 @@ def stock(request):
             print(ticker)
             context['ticker'] = ticker
             from datetime import datetime
-            start = datetime(2021, 1, 1)
-            end = datetime(2021, 3, 24)
+            from datetime import date, timedelta
 
-            data = web.DataReader(ticker, 'yahoo', start, end)
+            sdate = date(2021, 1, 1)   # start date
+            edate = date.today()   # end date
+
+            delta = edate - sdate       # as timedelta
+            dates = []
+            for i in range(delta.days):
+                day = sdate + timedelta(days=i)
+                dates.append(day)
+            context['dates'] = dates[:-2]
+            data = web.DataReader(ticker, 'yahoo', sdate, edate)
             context['high'] = process_data_high(data)
             context['low'] = process_data_low(data)
             context['open'] = process_data_open(data)
             context['close'] = process_data_close(data)
-            dates = list(dates_bwn_twodates(start, end))
-            context['dates'] = dates
+            
 
     context['form'] = form
     return render(request, 'stock.html', context)
