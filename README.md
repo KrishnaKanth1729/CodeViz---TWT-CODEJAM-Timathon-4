@@ -19,7 +19,7 @@
 #### &nbsp; &nbsp; &nbsp; Color can be any hex value for your flowchart's nodes
 ## 📊 Visualize your JSON data to graphical and professional-looking charts!
 ## How to use:
-![Image](https://media.giphy.com/media/h3NpJGXOVivzDhQ1qI/giphy.gif)
+![Image](https://media.giphy.com/media/y7anJF1IVG3GnKvjvD/giphy.gif)
 ### In the home page, click on the get started button or simply scroll down to the features section.
 ### **[Click on Flowchart from Code ](https://cryptant.my.to/livePrice.html)**
 ### This will take you to the flowchart feature page
