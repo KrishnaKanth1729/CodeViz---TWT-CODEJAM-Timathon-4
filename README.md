@@ -6,7 +6,7 @@
 ## This project is KrishnaKanth1729#1045's submission for Timathon Codejams March-April
 # <img align="center" alt="Visual Studio Code" width="300px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />
 <br>
-
+# This project has visualizations for programmers, data-analysts, 
 # Features:
 ## 💻 Convert your Python Code to Flowcharts
 ## How to use:
@@ -31,7 +31,7 @@
 ## 🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
 ![Image](https://media.giphy.com/media/y7anJF1IVG3GnKvjvD/giphy.gif)
 ### In the home page, click on the get started button or simply scroll down to the features section.
-### **[Click on JSON Charts ](https://li2160-199.members.linode.com/yt)**
+### **[Click on Charts for stock Market prices ](https://li2160-199.members.linode.com/stock)**
 ### This will take you to the JSON Charts feature page
 ### Now fill the form according to the details
 #### &nbsp; &nbsp; &nbsp; Name can be any title you wish for the chart 
@@ -61,5 +61,5 @@
 <img align="left" alt="Git" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png" />
 <img align="left" alt="GitHub" width="26px" src="https://raw.githubusercontent.com/github/explore/78df643247d429f6cc873026c0622819ad797942/topics/github/github.png" />
 <img align="left" alt="Terminal" width="26px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/terminal/terminal.png" />
-
-# If you liked my project, please vote for me.
+<br>
+## If you liked my project, please vote for me. I am KrishnaKanth1729#1045 in team AlgoGuyz
