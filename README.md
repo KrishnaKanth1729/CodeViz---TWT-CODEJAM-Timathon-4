@@ -11,7 +11,7 @@
 ### Click on Flowchart from Code
 ### This will take you to the flowchart features page
 ### Now fill the form according to the details
-#### Name can be any series of characters you wish
+#### &nbsp; &nbsp; &nbsp; Name can be any series of characters you wish
 #### file should be a python file(ends with .py) contaning code that would look great on a flowchart!
 #### Color can be any hex value for your flowchart's nodes
 ## 📊 Visualize your JSON data to graphical and professional-looking charts!
