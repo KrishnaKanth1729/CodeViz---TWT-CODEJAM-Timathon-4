@@ -11,8 +11,8 @@
 ## 💻 Convert your Python Code to Flowcharts
 ## How to use:
 ### In the home page, click on the get started button or simply scroll down to the features section.
-### Click on Flowchart from Code
-### This will take you to the flowchart features page
+### Click on Flowchart from Code [https://li2160-199.members.linode.com#main]
+### This will take you to the flowchart features page [https://li2160-199.members.linode.com/flow]
 ### Now fill the form according to the details
 #### &nbsp; &nbsp; &nbsp; Name can be any series of characters you wish
 #### &nbsp; &nbsp; &nbsp; file should be a python file(ends with .py) contaning code that would look great on a flowchart!
