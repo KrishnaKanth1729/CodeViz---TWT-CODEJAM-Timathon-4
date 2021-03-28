@@ -25,7 +25,7 @@
 ### This will take you to the JSON Charts feature page
 ### Now fill the form according to the details
 #### &nbsp; &nbsp; &nbsp; Name can be any title you wish for the chart 
-#### &nbsp; &nbsp; &nbsp; JSON should be a valid python JSON where the key is a string, and the value is an integer. Ex: {'TIM': 5000000, 'SENTDEX': 1000000}
+#### &nbsp; &nbsp; &nbsp; JSON should be a valid python JSON where the key is a string, <br> and the value is an integer. Ex: {'TIM': 5000000, 'SENTDEX': 1000000}
 #### &nbsp; &nbsp; &nbsp; Type of charts: you can choose any one of the available types you wish. ie. Doughnut, Area, Line etc
 ## 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
 ## 🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
