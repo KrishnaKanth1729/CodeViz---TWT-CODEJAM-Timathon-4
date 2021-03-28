@@ -2,7 +2,7 @@
 #  CodeViz, Your assistant to visualize your work. 🖥️
 ## 🟠 Head over to https://li2160-199.members.linode.com to see my project, Codeviz
 
-### I'm a 13-year old living in India who likes anything that's techy!
+### I'm a 13-year old living in India who likes anything that's techy! 👨‍💻
 ## This project is KrishnaKanth1729#1045's submission for Timathon Codejams March-April
 # <img align="center" alt="Visual Studio Code" width="300px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />
 
