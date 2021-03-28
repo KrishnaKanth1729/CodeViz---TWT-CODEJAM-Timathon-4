@@ -1,8 +1,8 @@
 # Hi there, I'm KrishnaKanth1729  👋
 
-#Head over to https://li2160-199.members.linode.com 
+# Head over to https://li2160-199.members.linode.com 
 
-### I'm a 13-year old living in India who like anything that's techy!
+### I'm a 13-year old living in India who likes anything that's techy!
 # <img align="left" alt="Visual Studio Code" width="300px" src="https://cdn.discordapp.com/attachments/511344731608055818/763430494393204736/bannerbig.png" />
 <br />
 
