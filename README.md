@@ -39,7 +39,7 @@
 #### &nbsp; &nbsp; &nbsp; Name can be any title you wish for the chart 
 #### &nbsp; &nbsp; &nbsp; JSON should be a valid python JSON where the key is a string, <br>  &nbsp; &nbsp; &nbsp;and the value is an integer. Ex: {'TIM': 5000000, 'SENTDEX': 1000000}
 #### &nbsp; &nbsp; &nbsp; Type of charts: you can choose any one of the available types you wish. ie. Doughnut, Area, Line etc
-
+# --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ### Connect with me:
 
 <img align="left" alt="codeSTACKr.com" width="22px" src="https://raw.githubusercontent.com/iconic/open-iconic/master/svg/globe.svg" />
