@@ -1,5 +1,5 @@
 # Hi there, I'm KrishnaKanth1729  👋
-#  CodeViz, Your assistant to visualize your work.
+#  CodeViz, Your assistant to visualize your work. 🖥️
 ## 🟠 Head over to https://li2160-199.members.linode.com to see my project, Codeviz
 
 ### I'm a 13-year old living in India who likes anything that's techy!
