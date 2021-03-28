@@ -18,6 +18,14 @@
 #### &nbsp; &nbsp; &nbsp; file should be a python file(ends with .py) contaning code that would look great on a flowchart!
 #### &nbsp; &nbsp; &nbsp; Color can be any hex value for your flowchart's nodes
 ## 📊 Visualize your JSON data to graphical and professional-looking charts!
+## How to use:
+### In the home page, click on the get started button or simply scroll down to the features section.
+### **[Click on Flowchart from Code ](https://cryptant.my.to/livePrice.html)**
+### This will take you to the flowchart feature page
+### Now fill the form according to the details
+#### &nbsp; &nbsp; &nbsp; Name can be any series of characters you wish
+#### &nbsp; &nbsp; &nbsp; file should be a python file(ends with .py) contaning code that would look great on a flowchart!
+#### &nbsp; &nbsp; &nbsp; Color can be any hex value for your flowchart's nodes
 ## 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
 ## 🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
 
