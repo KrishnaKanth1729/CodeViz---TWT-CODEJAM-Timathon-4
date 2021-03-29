@@ -24,6 +24,13 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\core\settings.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="\flowcode\admin.py">
           <value>
             <Attribute>

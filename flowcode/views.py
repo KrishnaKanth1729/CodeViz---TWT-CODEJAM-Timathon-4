@@ -28,10 +28,12 @@ def getdata(text):
     driver.get('http://flowchart.js.org/')
     time.sleep(2)
     elements = driver.find_elements_by_class_name('ace_text-input')
-    elements[1].send_keys(text)
+    elements[0].send_keys(text)
     print('sent')
-    el = driver.find_element_by_class_name('diagram2')
+    time.sleep(3)
+    el = driver.find_element_by_class_name('diagram1')
     print('found')
+    time.sleep(2)
     code = el.get_attribute('innerHTML')
     print('got')
 
@@ -47,6 +49,7 @@ def getdata(text):
         driver.back()
         driver.back()
         driver.back()'''
+    time.sleep(15)
     driver.close()
     return code
 

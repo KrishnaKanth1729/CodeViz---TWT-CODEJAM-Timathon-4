@@ -1,6 +1,6 @@
 # Hi there, I'm KrishnaKanth1729  👋
 #  CodeViz, Your assistant to visualize your work. 🖥️
-## 🟠 Head over to https://li2160-199.members.linode.com to see my project, Codeviz
+## 🟠 Head over to https://li1958-185.members.linode.com/ to see my project, Codeviz
 
 ### I'm a 13-year old living in India who likes anything that's techy! 👨‍💻
 ## This project is KrishnaKanth1729#1045's submission for Timathon Codejams March-April
@@ -13,7 +13,7 @@
 ## 💻 Convert your Python Code to Flowcharts
 ## How to use:
 ### In the home page, click on the get started button or simply scroll down to the features section.
-### **[Click on Flowchart from Code ](https://cryptant.my.to/livePrice.html)**
+### **[Click on Flowchart from Code ](https://li1958-185.members.linode.com/flow)**
 ### This will take you to the flowchart feature page
 ### Now fill the form according to the details
 #### &nbsp; &nbsp; &nbsp; Name can be any series of characters you wish
