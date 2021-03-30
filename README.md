@@ -3,7 +3,7 @@
 ## 🟠 Head over to https://li1958-185.members.linode.com/ to see my project, Codeviz
 <div align="center">
 
-![CodeViz Logo](static/code.png)
+![CodeViz Logo](static/code-removebg-preview.png)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/KrishnaKanth1729/CodeViz---TWT-CODEJAM-Timathon-4)
 ![Web](https://img.shields.io/badge/Platform-Web-orange)
