@@ -12,7 +12,7 @@
 # Features:
 ## 💻 Convert your Python Code to Flowcharts
 ## How to use:
-![Image](https://media.giphy.com/media/BrxtBALK9pGfiGGg74/giphy.gif)
+![Image](https://media.giphy.com/media/4Nx0U4qpwE1cJk1qrl/giphy.gif)
 ### In the home page, click on the get started button or simply scroll down to the features section.
 ### **[Click on Flowchart from Code ](https://li1958-185.members.linode.com/flow)**
 ### This will take you to the flowchart feature page
