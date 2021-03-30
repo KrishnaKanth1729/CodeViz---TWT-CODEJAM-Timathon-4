@@ -1,6 +1,18 @@
 # Hi there, I'm KrishnaKanth1729  👋
 #  CodeViz, Your assistant to visualize your work. 🖥️
 ## 🟠 Head over to https://li1958-185.members.linode.com/ to see my project, Codeviz
+<div align="center">
+
+![Figurify Logo](public/figurify_final.png)
+
+![GitHub repo size](https://img.shields.io/github/repo-size/SnowballSH/Figurify)
+![Web](https://img.shields.io/badge/Platform-Web-orange)
+
+# Figurify the algorithms, right in your browser!
+
+#### [Website](https://figurify.vercel.app/)
+
+</div>
 
 ### I'm a 13-year old living in India who likes anything that's techy! 👨‍💻
 ## This project is KrishnaKanth1729#1045's submission for Timathon Codejams March-April
