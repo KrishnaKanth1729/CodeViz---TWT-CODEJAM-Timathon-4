@@ -24,7 +24,7 @@ def getdata(text):
     chrome_options.add_argument("--no-sandbox")
     chrome_options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
     driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=chrome_options)'''
-    driver = webdriver.Chrome(executable_path=r"C:\Program Files (x86)\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path=f"{settings.BASE_DIR}/chromedriver.exe")
     driver.get('http://flowchart.js.org/')
     time.sleep(2)
     elements = driver.find_elements_by_class_name('ace_text-input')
@@ -256,7 +256,7 @@ def get_images(search_list):
                 chrome_options.add_argument("--disable-dev-shm-usage")
                 chrome_options.add_argument("--no-sandbox")
                 driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), options=chrome_options)'''
-    driver = webdriver.Chrome(executable_path=r"C:\Program Files (x86)\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path=f"{settings.BASE_DIR}/chromedriver.exe")
     i = 0
     for item in search_list[:5]:
         i += 1
