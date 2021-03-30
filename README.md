@@ -32,7 +32,7 @@
 Type of charts: you can choose any one of the available types you wish. ie. Doughnut, Area, Line etc
 ## 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
 ## How to use:
-![Image](https://media.giphy.com/media/y7anJF1IVG3GnKvjvD/giphy.gif)
+![Image](https://media.giphy.com/media/BYvQDT17avsRQAi8Nc/giphy.gif)
 ### **[Click on Story Collage ](https://li1958-185.members.linode.com/viz)**
 ### This will take you to the story collage feature page
 ### Now fill the form according to the details
