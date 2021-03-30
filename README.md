@@ -6,9 +6,8 @@
 ![CodeViz Logo](static/code-removebg-preview.png)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/KrishnaKanth1729/CodeViz---TWT-CODEJAM-Timathon-4)
-![Web](https://img.shields.io/badge/Platform-Web-orange)
+![Web](https://img.shields.io/badge/Platform-Web-green)
 
-# Figurify the algorithms, right in your browser!
 
 #### [Website](https://figurify.vercel.app/)
 
