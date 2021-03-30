@@ -28,8 +28,7 @@
 ### Now fill the form according to the details
 #### &nbsp; &nbsp; &nbsp; 🟠 Name can be any title you wish for the chart 
 #### &nbsp; &nbsp; &nbsp; 🟠 JSON should be a valid python JSON where the key is a string, <br>  &nbsp; &nbsp; &nbsp;and the value is an integer. Ex: {'TIM': 5000000, 'SENTDEX': 1000000}
-#### &nbsp; &nbsp; &nbsp; 🟠 
-Type of charts: you can choose any one of the available types you wish. ie. Doughnut, Area, Line etc
+#### &nbsp; &nbsp; &nbsp; 🟠 Type of charts: you can choose any one of the available types you wish. ie. Doughnut, Area, Line etc
 ## 💬 Visualize a story or block of text into a collage of images which you can use for narrating or use in a presentation quickly!
 ## How to use:
 ![Image](https://media.giphy.com/media/BYvQDT17avsRQAi8Nc/giphy.gif)
@@ -38,7 +37,7 @@ Type of charts: you can choose any one of the available types you wish. ie. Doug
 ### Now fill the form according to the details
 #### &nbsp; &nbsp; &nbsp; 🟠 Enter any meaningful block of text in the textarea and click on the submit button and the result will appear.
 ## 🗠 Get Historical Stock data plotted in candlestick charts for any ticker.
-![Image](https://media.giphy.com/media/y7anJF1IVG3GnKvjvD/giphy.gif)
+![Image](https://media.giphy.com/media/VvMIRFAqw3tnvbx9Gv/giphy.gif)
 ### In the home page, click on the get started button or simply scroll down to the features section.
 ### **[Click on Charts for stock Market prices ](https://li2160-199.members.linode.com/stock)**
 ### This will take you to the JSON Charts feature page
