@@ -1,6 +1,8 @@
 # Hi there, I'm KrishnaKanth1729  👋
-#  CodeViz, Your assistant to visualize your work. 🖥️
+#  CodeViz, Your assistant to visualize your work. 🖥️ -> Came in top 10 🥳
 ## 🟠 Head over to https://li1958-185.members.linode.com/ to see my project, Codeviz
+
+
 <div align="center">
 
 ![CodeViz Logo](static/code-removebg-preview.png)
